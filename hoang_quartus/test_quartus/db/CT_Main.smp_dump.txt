@@ -1,0 +1,12 @@
+
+State Machine - |CT_Main|CT_Clock:U2|state
+Name state.state_gio state.state_phut state.state_giay 
+state.state_giay 0 0 0 
+state.state_phut 0 1 1 
+state.state_gio 1 0 1 
+
+State Machine - |CT_Main|CT_Clock:U2|next_state
+Name next_state.state_gio next_state.state_phut next_state.state_giay 
+next_state.state_giay 0 0 0 
+next_state.state_phut 0 1 1 
+next_state.state_gio 1 0 1 
